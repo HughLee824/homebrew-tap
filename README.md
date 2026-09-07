@@ -2,7 +2,7 @@
 
 Homebrew distribution for [AgentSoma](https://github.com/HughLee824/AgentSoma).
 
-The Tap is being prepared. The installation command becomes available after the first stable release and formula update:
+Install the stable release:
 
 ```sh
 brew install HughLee824/tap/agentsoma
@@ -29,4 +29,4 @@ The workflow rejects draft and prerelease versions, checks the archive checksum,
 
 Formula generation and the workflow template are maintained in [AgentSoma's packaging directory](https://github.com/HughLee824/AgentSoma/tree/main/packaging/homebrew-tap). Sync template changes deliberately; normal formula updates only change `Formula/agentsoma.rb`.
 
-MIT licensed; see [LICENSE](LICENSE).
+MIT licensed; see [LICENSE](https://github.com/HughLee824/AgentSoma/blob/main/LICENSE).
