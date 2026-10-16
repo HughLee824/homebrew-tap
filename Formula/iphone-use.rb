@@ -5,9 +5,9 @@ require "json"
 class IphoneUse < Formula
   desc "Eyes and hands for agents operating a real iPhone"
   homepage "https://github.com/HughLee824/iphone-use"
-  url "https://github.com/HughLee824/iphone-use/releases/download/v0.3.3/iphone-use-0.3.3-macos-arm64.tar.gz"
-  version "0.3.3"
-  sha256 "11de5cd2ee8410b06a1e57b1e946d0e4010f7bb8d2994ebccd57ca016ede3bc8"
+  url "https://github.com/HughLee824/iphone-use/releases/download/v0.3.4/iphone-use-0.3.4-macos-arm64.tar.gz"
+  version "0.3.4"
+  sha256 "272c8a5f2aba895fa5c2f81755dfdf990566577d97b67a8e28bd61bac4d3aafe"
   license "MIT"
   conflicts_with "agentsoma", because: "both install the agentsoma compatibility command"
 
