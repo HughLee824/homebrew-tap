@@ -5,11 +5,10 @@ require "json"
 class IphoneUse < Formula
   desc "Eyes and hands for agents operating a real iPhone"
   homepage "https://github.com/HughLee824/iphone-use"
-  url "https://github.com/HughLee824/iphone-use/releases/download/v0.3.5/iphone-use-0.3.5-macos-arm64.tar.gz"
-  version "0.3.5"
-  sha256 "ac9d682899b7531f0d55a4d116ae863f488c9954b299392877c650d19d3d77f6"
+  url "https://github.com/HughLee824/iphone-use/releases/download/v0.3.6/iphone-use-0.3.6-macos-arm64.tar.gz"
+  version "0.3.6"
+  sha256 "803af842a7fb9fbba311879abb33baa0d0d07da740d1e0d2045903ea61ba0e4c"
   license "MIT"
-  conflicts_with "agentsoma", because: "both install the agentsoma compatibility command"
 
   depends_on arch: :arm64
   depends_on macos: :sequoia
@@ -20,7 +19,6 @@ class IphoneUse < Formula
   def install
     libexec.install "bin", "libexec"
     bin.install_symlink libexec/"bin/iphone-use"
-    bin.install_symlink libexec/"bin/iphone-use" => "agentsoma"
     prefix.install "README.md", "LICENSE", "build-info.json"
     (pkgshare/"licenses").install "licenses/SwiftArgumentParser.txt"
   end
