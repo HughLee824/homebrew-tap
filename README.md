@@ -1,6 +1,6 @@
 # HughLee824 Homebrew Tap
 
-> This Tap distributes published stable releases. Repository, Release and plugin versions are updated independently; check the formula version before installing. Existing Logo assets remain unchanged.
+> CLI and plugin versions update independently. See GitHub Releases and the Tap formula for the available stable package.
 
 
 Homebrew distribution for [iPhone-use](https://github.com/HughLee824/iphone-use).
@@ -22,7 +22,7 @@ brew upgrade iphone-use
 brew uninstall iphone-use
 ```
 
-Disconnect active sessions before upgrading. When moving from the old `agentsoma` formula, uninstall it before installing `iphone-use`: both expose the compatibility command and conflict. Local configuration is retained. Renamed Runner deployments require new setup; standard mode does not. Uninstalling the formula leaves local signing state and installed iPhone apps intact.
+Disconnect active sessions before upgrading. The formula installs `iphone-use`; select the desired mode explicitly and prepare the matching Runner when needed. Standard mode does not require Runner setup. Uninstalling the formula leaves local signing state and installed iPhone apps intact.
 
 ## Maintainers
 
