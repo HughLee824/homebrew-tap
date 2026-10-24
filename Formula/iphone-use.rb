@@ -5,9 +5,9 @@ require "json"
 class IphoneUse < Formula
   desc "Eyes and hands for agents operating a real iPhone"
   homepage "https://github.com/HughLee824/iphone-use"
-  url "https://github.com/HughLee824/iphone-use/releases/download/v0.3.17/iphone-use-0.3.17-macos-arm64.tar.gz"
-  version "0.3.17"
-  sha256 "e6bd07b0c17dc3cee536b1fb30340ae5f267d5fc2d08aaa5c02fc32e61e7a0f8"
+  url "https://github.com/HughLee824/iphone-use/releases/download/v0.4.0/iphone-use-0.4.0-macos-arm64.tar.gz"
+  version "0.4.0"
+  sha256 "95072c5af8efe7ba246816bbc693e9ab56a7f5ff96271248683ac32ec6c5c751"
   license "MIT"
 
   depends_on arch: :arm64
